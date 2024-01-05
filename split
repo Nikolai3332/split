@@ -1,0 +1,15 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        string text = "Привет! Как тебя зовут?";
+        string[] words = text.Split(new char[] { ' ' });
+
+        foreach (string message in words)
+        {
+            Console.WriteLine(message);
+        }
+
+        Console.ReadKey();
+    }
+}
